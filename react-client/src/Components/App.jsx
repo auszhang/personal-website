@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './HeaderComponent/NavBar';
 
+
 class App extends Component {
     render() {
         return (

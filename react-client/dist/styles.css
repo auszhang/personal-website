@@ -1,23 +1,67 @@
 header {
-    display: block;
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    color: white;
-  }
-  #headerButtons {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .navButton {
-    float: right;
-  }
-  footer {
-    display: block;
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    color: white;
-  }
+  display: block;
+  background-color: #abcabc;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+#headerButtons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navButton {
+  float: left;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+@font-face {
+  font-family: 'Abhaya-Libre';
+  src: url('abhayalibre-extrabold-webfont.woff2') format('woff2'),
+       url('abhayalibre-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.nametitle {
+  position: absolute;
+  /* width: 268px;
+  height: 57px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Abhaya-Libre'; 
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+
+
+
+/* Icon 
+ellipse {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  left: 591px;
+  top: 348px;
+
+  background: #FFFFFF;
+  transform: rotate(-90deg);
   
+} */
